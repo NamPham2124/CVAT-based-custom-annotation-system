@@ -24,7 +24,7 @@ Dự án là tuỳ chỉnh lại hệ thống CVAT
 
 
 
-\*\*Structure\*\* :
+\*\*Structure\*\* 
 
 ```
 
@@ -158,5 +158,5 @@ example : remove Filter --> tìm feature Filter trong structure --> sửa code �
 
 
 
-&nbsp;
+
 
