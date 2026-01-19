@@ -1,4 +1,4 @@
-\# CVAT-based Custom Annotation System 
+# CVAT-based Custom Annotation System 
 
 
 
@@ -6,25 +6,25 @@ Dự án là tuỳ chỉnh lại hệ thống CVAT
 
 
 
-\## Features
+## Features
 
 * Công cụ chú thích được lược giản hoá dễ sử dụng 
 
 
 
-\## Quick start 🚀
+## Quick start 🚀
 
 
 
-\### Step 1 : Hiểu cấu trúc cvat-ui
+### Step 1 : Hiểu cấu trúc cvat-ui
 
 
 
-\*\*Note\*\* : All UI features được thực hiện ở 'cvat-ui/src/components/annotation-page/'
+**Note** : All UI features được thực hiện ở 'cvat-ui/src/components/annotation-page/'
 
 
 
-\*\*Structure\*\* 
+**Structure** 
 
 ```
 
@@ -134,23 +134,23 @@ annotation-page/
 
 ```
 
-\### STEP2 : Xác định các tính năng cần xoá 
+### STEP2 : Xác định các tính năng cần xoá 
 
-* \*\*DrawRectangleControl\*\*
-* \*\*DrawPolygonControl\*\*
-* \*\*DrawPolylineControl\*\*
-* \*\*DrawPointsControl\*\*
-* \*\*DrawEllipseControl\*\*
-* \*\*DrawCuboidControl\*\*
-* \*\*DrawMaskControl\*\*
-* \*\*DrawSkeletonControl\*\*
-* \*\*SetupTagControl\*\*
-* \*\*JoinControl\*\*
-* \*\*SplitControl\*\*
-* \*\*SliceControl\*\*
-* \*\*Filter\*\*
+* **DrawRectangleControl**
+* **DrawPolygonControl**
+* **DrawPolylineControl**
+* **DrawPointsControl**
+* **DrawEllipseControl**
+* **DrawCuboidControl**
+* **DrawMaskControl**
+* **DrawSkeletonControl**
+* **SetupTagControl**
+* **JoinControl**
+* **SplitControl**
+* **SliceControl**
+* **Filter**
 
-\### STEP3 : Thực hiện 
+### STEP3 : Thực hiện 
 
 Đối chiếu các tính năng muốn xoá hoặc không cần thiết ở STEP2 với cấu trúc ở STEP1 để tìm file xoá các tính năng không cần thiết
 
