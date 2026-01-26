@@ -352,8 +352,12 @@ export default function ControlsSideBarComponent(props: Props): JSX.Element {
             <ObservedResizeControl canvasInstance={canvasInstance} activeControl={activeControl} />
 
             <hr />
+            {/* Keep: AI Tools and OpenCV Tools */}
             <ObservedToolsControl />
             <ObservedOpenCVControl />
+
+            {/* Removed: Drawing tools - Rectangle, Polygon, Polyline, Points, Ellipse, Cuboid, Mask, Skeleton */}
+            {/*
             {
                 rectangleControlVisible && (
                     <ObservedDrawRectangleControl
@@ -434,8 +438,10 @@ export default function ControlsSideBarComponent(props: Props): JSX.Element {
                     />
                 )
             }
+            */}
             <hr />
 
+            {/* Keep: Merge and Group tools */}
             <ObservedMergeControl
                 canvasInstance={canvasInstance}
                 dynamicIconProps={dynamicMergeIconProps}
@@ -446,6 +452,8 @@ export default function ControlsSideBarComponent(props: Props): JSX.Element {
                 dynamicIconProps={dynamicGroupIconProps}
                 disabled={controlsDisabled}
             />
+            {/* Removed: Split, Join, Slice tools */}
+            {/*
             <ObservedSplitControl
                 canvasInstance={canvasInstance}
                 dynamicIconProps={dynamicTrackIconProps}
@@ -463,6 +471,7 @@ export default function ControlsSideBarComponent(props: Props): JSX.Element {
                 activeControl={activeControl}
                 disabled={controlsDisabled}
             />
+            */}
 
             <ExtraControlsControl />
         </Layout.Sider>

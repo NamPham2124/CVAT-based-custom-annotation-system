@@ -10,8 +10,8 @@ import Select from 'antd/lib/select';
 import Button from 'antd/lib/button';
 import Modal from 'antd/lib/modal';
 import notification from 'antd/lib/notification';
-
 // import { FilterIcon, FullscreenIcon, GuideIcon } from 'icons';
+import { FullscreenIcon, GuideIcon } from 'icons';
 import config from 'config';
 import {
     DimensionType, Job, JobStage, JobState,
@@ -138,8 +138,8 @@ function RightGroup(props: Props): JSX.Element {
             >
                 <InfoCircleOutlined />
                 Info
-            {/* Disabled Filters button */}
             </Button>
+            {/* Removed: Filters button */}
             {/*
             <Button
                 type='link'
